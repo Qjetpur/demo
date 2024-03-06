@@ -8,6 +8,6 @@ const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("h2", {}, "I am grand child-2"),
   ]),
 ]);
-
+hello world
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
